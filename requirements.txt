@@ -1,0 +1,14 @@
+Flask==2.3.3
+
+# Specifies that version 2.3.3 of Flask will be installed.
+
+gunicorn==21.0.0    
+
+#(Green Unicorn)
+# A Python WSGI (Web Server Gateway Interface) HTTP server for deploying Python web applications
+# It is commonly used in deployments because Flask's built-in server is not suitable for production.
+
+requests==2.31.0 
+
+# A popular Python library for making HTTP requests (e.g., GET, POST, PUT, DELETE)
+# in a simple and human-friendly way.

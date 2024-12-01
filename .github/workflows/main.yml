@@ -1,4 +1,4 @@
-name: Build and Deploy Python App to Azure Web App
+name: flask2 - Web Deploy
 
 on:
   push:

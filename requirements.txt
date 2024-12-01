@@ -12,3 +12,22 @@ requests==2.31.0
 
 # A popular Python library for making HTTP requests (e.g., GET, POST, PUT, DELETE)
 # in a simple and human-friendly way.
+
+# Flask framework for creating the web app
+Flask==2.3.3
+
+
+# Azure-specific libraries
+# Enables integration with Azure App Service logging and storage
+azure-core==1.29.4
+azure-storage-blob==12.17.0
+azure-identity==1.13.0
+
+# Required for handling WSGI in Azure deployments
+Werkzeug==2.3.7
+
+# Used for compatibility with various configurations (if needed)
+Flask-Cors==3.0.10
+
+# For secure password management (if needed in your app)
+bcrypt==4.0.1
